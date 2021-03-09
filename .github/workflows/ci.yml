@@ -26,12 +26,12 @@ jobs:
       - name: Build library
         run: swift build
 
-  test:
-    runs-on: macos-latest
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Test library
-        run: swift test
+#  test:
+#    runs-on: macos-latest
+#
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v2
+#
+#      - name: Test library
+#        run: swift test
